@@ -6,19 +6,18 @@
 
 /* SLATE for small text color: #434455; */
 
-body{
+body {
     font-family: 'Roboto';
 }
 
-header{
+header {}
 
-}
-
-.link, .logo{
+.link,
+.logo {
     text-decoration: none;
 }
 
-.logo{
+.logo {
     font-family: 'Raleway';
     font-style: normal;
     font-weight: 800;
@@ -27,26 +26,43 @@ header{
     color: #2E2F42;
 }
 
-.logocolor{
+.logocolor {
     color: #4D5AE5;
 }
 
-.list{
+.list {
     list-style: none;
 }
 
-main{
-
+.menu-link {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: 0.02em;
+    color: #2E2F42;
 }
 
-p{
+.mailto,
+.contact-phone-number {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: 0.02em;
     color: #434455;
 }
 
-.principles{
+main {}
+
+p {
+    color: #434455;
+}
+
+.principles {
     display: none;
 }
 
-footer{
-
-}
+footer {}
