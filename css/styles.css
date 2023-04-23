@@ -1,0 +1,52 @@
+/* WHITE for h1 and background body color: #FFFFFF; */
+
+/* IRIS color for logo and button background color: #4D5AE5;*/
+
+/* NAVY BLUE for header and main-text color: #2E2F42; */
+
+/* SLATE for small text color: #434455; */
+
+body{
+    font-family: 'Roboto';
+}
+
+header{
+
+}
+
+.link, .logo{
+    text-decoration: none;
+}
+
+.logo{
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 18px;
+    line-height: 21px;
+    color: #2E2F42;
+}
+
+.logocolor{
+    color: #4D5AE5;
+}
+
+.list{
+    list-style: none;
+}
+
+main{
+
+}
+
+p{
+    color: #434455;
+}
+
+.principles{
+    display: none;
+}
+
+footer{
+
+}
