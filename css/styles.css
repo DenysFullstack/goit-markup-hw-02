@@ -1,16 +1,8 @@
-/* WHITE for h1 and background body color: #FFFFFF; */
-
-/* IRIS color for logo and button background color: #4D5AE5;*/
-
-/* NAVY BLUE for header and main-text color: #2E2F42; */
-
-/* SLATE for small text color: #434455; */
-
 body {
     font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
 }
-
-header {}
 
 .link,
 .logo {
@@ -19,7 +11,6 @@ header {}
 
 .logo {
     font-family: 'Raleway';
-    font-style: normal;
     font-weight: 800;
     font-size: 18px;
     line-height: 21px;
@@ -36,26 +27,44 @@ header {}
 
 .menu-link {
     font-family: 'Roboto';
-    font-style: normal;
-    font-weight: 500;
     font-size: 16px;
     line-height: 24px;
-    letter-spacing: 0.02em;
     color: #2E2F42;
 }
 
 .mailto,
 .contact-phone-number {
     font-family: 'Roboto';
-    font-style: normal;
     font-weight: 400;
     font-size: 16px;
     line-height: 24px;
-    letter-spacing: 0.02em;
     color: #434455;
 }
 
 main {}
+
+.main-hero {
+    background: #2E2F42;
+}
+
+.main-text {
+    font-weight: 700;
+    font-size: 56px;
+    line-height: 60px;
+    color: #FFFFFF;
+}
+
+.main-button {
+    width: 169px;
+    height: 56px;
+    background: #4D5AE5;
+}
+
+.button-text {
+    font-size: 16px;
+    color: #FFFFFF;
+    line-height: 24px;
+}
 
 p {
     color: #434455;
@@ -65,4 +74,92 @@ p {
     display: none;
 }
 
-footer {}
+.feature {
+    font-size: 20px;
+    line-height: 24px;
+    color: #2E2F42;
+}
+
+.text {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: #434455;
+}
+
+.directions {
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 40px;
+    color: #2E2F42;
+}
+
+.our-team {
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 40px;
+    color: #2E2F42;
+}
+
+.member {
+    font-size: 20px;
+    line-height: 24px;
+    color: #2E2F42;
+}
+
+.direction {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: #434455;
+}
+
+.page-footer {
+    background: #2E2F42;
+}
+
+.second-part-logo {
+    color: #F4F4FD;
+}
+
+.footer-text {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: #F4F4FD;
+}
+
+.second-page-button {
+    background: #F4F4FD;
+    line-height: 24px;
+    border: 1px solid #E7E9FC;
+}
+
+.portfolio-button-text {
+    font-size: 16px;
+    color: #4D5AE5;
+}
+
+.portfolio-button-text:hover,
+.portfolio-button-text:focus {
+    font-size: 16px;
+    color: #FFFFFF;
+}
+
+.second-page-button:hover,
+.second-page-button:focus {
+    background: #404BBF;
+}
+
+.type-of-app {
+    font-size: 20px;
+    line-height: 24px;
+    color: #2E2F42;
+}
+
+.app {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: #434455;
+}
