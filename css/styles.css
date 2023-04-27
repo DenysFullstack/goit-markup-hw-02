@@ -15,7 +15,7 @@ body {
 }
 
 link:hover,
-link:focus{
+link:focus {
     color: #404bbf;
 }
 
@@ -101,7 +101,7 @@ main {}
 }
 
 .main-button {
-    font-family: "Roboto",sans-serif;
+    font-family: "Roboto", sans-serif;
     font-size: 16px;
     line-height: 1.5;
     font-weight: 500;
@@ -146,7 +146,8 @@ p {
     text-transform: capitalize;
     color: #2E2F42;
 }
-.team{
+
+.team {
     background-color: #F4F4FD;
 }
 
@@ -160,7 +161,7 @@ p {
     color: #2E2F42;
 }
 
-.team-members{
+.team-members {
     background-color: #FFFFFF;
 }
 
@@ -218,24 +219,24 @@ p {
     color: #FFFFFF;
 }
 
-:root{
-    --second-page-button-color:#4d5ae5;
-    --second-page-button-background-color:#F4F4FD;
+:root {
+    --second-page-button-color: #4d5ae5;
+    --second-page-button-background-color: #F4F4FD;
 }
 
-.second-page-button{
+.second-page-button {
     font-family: "Roboto", sans-serif;
     font-weight: 500;
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.04em;
     cursor: pointer;
-    color:var(--second-page-button-color);
-    background-color:var(--second-page-button-background-color);
+    color: var(--second-page-button-color);
+    background-color: var(--second-page-button-background-color);
 }
 
-:root{
-    --type-of-app-color:#2E2F42;
+:root {
+    --type-of-app-color: #2E2F42;
 }
 
 .type-of-app {
@@ -246,7 +247,7 @@ p {
     color: var(--type-of-app-color)
 }
 
-:root{
+:root {
     --app-color: #434455;
 }
 
@@ -255,5 +256,5 @@ p {
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
-    color:var(--app-color)
+    color: var(--app-color)
 }
