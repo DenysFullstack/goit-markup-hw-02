@@ -96,7 +96,7 @@ main {}
 }
 
 .main-button {
-    font-family: "Roboto";
+    font-family: "Roboto",sans-serif;
     font-size: 16px;
     line-height: 1.5;
     font-weight: 500;
@@ -191,9 +191,10 @@ p {
 }
 
 .second-page-button {
-    background: #F4F4FD;
     line-height: 24px;
     border: 1px solid #E7E9FC;
+    background: #F4F4FD;
+    color: var(--second-page-button-color);
 }
 
 .portfolio-button-text {
@@ -203,7 +204,6 @@ p {
 
 .portfolio-button-text:hover,
 .portfolio-button-text:focus {
-    font-size: 16px;
     color: #FFFFFF;
 }
 
