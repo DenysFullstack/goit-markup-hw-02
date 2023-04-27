@@ -14,6 +14,11 @@ body {
     --logotype-color: #4D5AE5;
 }
 
+link:hover,
+link:focus{
+    color: #404bbf;
+}
+
 .link,
 .logo {
     text-decoration: none;
@@ -210,6 +215,7 @@ p {
 .second-page-button:hover,
 .second-page-button:focus {
     background: #404BBF;
+    color: #FFFFFF;
 }
 
 :root{
@@ -224,7 +230,7 @@ p {
     line-height: 1.5;
     letter-spacing: 0.04em;
     cursor: pointer;
-    color:var(--second-page-button);
+    color:var(--second-page-button-color);
     background-color:var(--second-page-button-background-color);
 }
 
