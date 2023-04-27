@@ -14,8 +14,8 @@ body {
     --logotype-color: #4D5AE5;
 }
 
-link:hover,
-link:focus {
+.link:hover,
+.link:focus {
     color: #404bbf;
 }
 
