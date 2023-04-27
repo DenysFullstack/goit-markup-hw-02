@@ -1,7 +1,17 @@
+:root {
+    --body-color: #FFFFFF;
+}
+
 body {
-    font-family: 'Roboto';
+    font-family: 'Roboto', sans-serif;
     font-style: normal;
     font-weight: 500;
+    color: #434455;
+    background-color: var(--body-color)
+}
+
+:root {
+    --logotype-color: #4D5AE5;
 }
 
 .link,
@@ -9,16 +19,28 @@ body {
     text-decoration: none;
 }
 
-.logo {
-    font-family: 'Raleway';
-    font-weight: 800;
-    font-size: 18px;
-    line-height: 21px;
-    color: #2E2F42;
+:root {
+    --logo-color: #2E2F42;
 }
 
-.logocolor {
-    color: #4D5AE5;
+.logo {
+    font-family: 'Raleway', sans-serif;
+    font-weight: 800;
+    font-size: 18px;
+    line-height: 1.17;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: var(--logo-color)
+}
+
+.logotype {
+    font-family: 'Raleway', sans-serif;
+    font-weight: 800;
+    font-size: 18px;
+    line-height: 1.17;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: var(--logotype-color)
 }
 
 .list {
@@ -28,8 +50,18 @@ body {
 .menu-link {
     font-family: 'Roboto';
     font-size: 16px;
-    line-height: 24px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
     color: #2E2F42;
+}
+
+.menu-link:hover,
+.menu-link:focus {
+    color: #404bbf;
+}
+
+.contacts {
+    font-style: normal;
 }
 
 .mailto,
@@ -38,7 +70,8 @@ body {
     font-weight: 400;
     font-style: normal;
     font-size: 16px;
-    line-height: 24px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
     color: #434455;
 }
 
@@ -51,20 +84,28 @@ main {}
 .main-text {
     font-weight: 700;
     font-size: 56px;
-    line-height: 60px;
+    line-height: 1.07;
+    text-align: center;
+    letter-spacing: 0.02em;
     color: #FFFFFF;
+}
+
+.main-button:hover,
+.main-button:focus {
+    background-color: #404BBF;
 }
 
 .main-button {
+    font-family: "Roboto";
+    font-size: 16px;
+    line-height: 1.5;
+    font-weight: 500;
+    letter-spacing: 0.04em;
     width: 169px;
     height: 56px;
+    cursor: pointer;
     background: #4D5AE5;
-}
-
-.button-text {
-    font-size: 16px;
     color: #FFFFFF;
-    line-height: 24px;
 }
 
 p {
@@ -76,42 +117,61 @@ p {
 }
 
 .feature {
+    font-weight: 500;
     font-size: 20px;
-    line-height: 24px;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
     color: #2E2F42;
 }
 
 .text {
     font-weight: 400;
     font-size: 16px;
-    line-height: 24px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
     color: #434455;
 }
 
 .directions {
     font-weight: 700;
     font-size: 36px;
-    line-height: 40px;
+    line-height: 1.11;
+    text-align: center;
+    letter-spacing: 0.02em;
+    text-transform: capitalize;
     color: #2E2F42;
+}
+.team{
+    background-color: #F4F4FD;
 }
 
 .our-team {
     font-weight: 700;
     font-size: 36px;
-    line-height: 40px;
+    line-height: 1.11;
+    text-align: center;
+    letter-spacing: 0.02em;
+    text-transform: capitalize;
     color: #2E2F42;
 }
 
+.team-members{
+    background-color: #FFFFFF;
+}
+
 .member {
+    font-weight: 500;
     font-size: 20px;
-    line-height: 24px;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
     color: #2E2F42;
 }
 
 .direction {
     font-weight: 400;
     font-size: 16px;
-    line-height: 24px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
     color: #434455;
 }
 
@@ -126,7 +186,7 @@ p {
 .footer-text {
     font-weight: 400;
     font-size: 16px;
-    line-height: 24px;
+    line-height: 1.5;
     color: #F4F4FD;
 }
 
@@ -152,15 +212,42 @@ p {
     background: #404BBF;
 }
 
+:root{
+    --second-page-button-color:#4d5ae5;
+    --second-page-button-background-color:#F4F4FD;
+}
+
+.second-page-button{
+    font-family: "Roboto", sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.04em;
+    cursor: pointer;
+    color:var(--second-page-button);
+    background-color:var(--second-page-button-background-color);
+}
+
+:root{
+    --type-of-app-color:#2E2F42;
+}
+
 .type-of-app {
+    font-weight: 500;
     font-size: 20px;
-    line-height: 24px;
-    color: #2E2F42;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+    color: var(--type-of-app-color)
+}
+
+:root{
+    --app-color: #434455;
 }
 
 .app {
     font-weight: 400;
     font-size: 16px;
-    line-height: 24px;
-    color: #434455;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color:var(--app-color)
 }
